@@ -49,7 +49,7 @@ signal.signal(signal.SIGINT, SIGINTHandler)
 
 if __name__ == '__main__':
 
-    credential = credentials.get("telegram", "263644833:AAFYANsS0PDDdq_7OvFkYZ9_3oAGlrLvou4")
+    credential = credentials.get("telegram", "token")
     updater = Updater(credential)
     dp = updater.dispatcher
 
